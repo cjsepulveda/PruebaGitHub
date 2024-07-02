@@ -28,7 +28,7 @@ trace1 = go.Bar(x=pv.index, y=pv[('Quantity', 'declinada')], name='Declinada')
 app = dash.Dash()
 
 app.layout = html.Div(children=[
-    html.H1(children='Reporte 1° Medios'),
+    html.H1(children='Reporte 1° Medios 2024'),
     html.Div(children='''Promovidos.'''),
     dcc.Graph(
         id='example-graph',
